@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poppin' Party</title>
+
+    <style>
+        @font-face {
+            font-family: "Anzumoji";
+            src: url("./AP.ttf") format("truetype");
+        }
+        @font-face {
+            font-family: "Smiley Sans";
+            src: url("./SmileySans-Oblique.ttf") format("truetype");
+        }
+        @font-face {
+            font-family: "Quicksand";
+            src: url("./Quicksand-VariableFont_wght.ttf") format("truetype");
+        }
+        .页眉{
+            margin-top: 5rem;
+            text-align: center;
+        }
+        .title{
+            width: min(80vw, 50rem);
+        }
+        .background{
+            position: fixed;
+            inset: 0;
+            overflow: hidden;
+            z-index: -1;
+        }
+        .bgpic{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            transform: translate(-50%, -50%);
+        }
+        .boxcara{
+            box-sizing: border-box;
+            width: 100%;
+            background-color: rgba(240, 255, 255, 0.8);
+            border-radius: 1.6rem;
+            padding: 3rem;
+            margin-top: 4rem;
+            margin-bottom: 6rem;
+        }
+        .cara_title{
+            width: 100%;
+            margin: 0 0 1rem 0;
+            position: relative;
+            font-size: 4rem;
+            font-family: "Anzumoji";
+            text-align: center;
+            letter-spacing: 1rem;
+        }
+        .carapic{
+            float: left;
+            position: relative;
+            margin-top: 0.5rem;
+            margin-right: 2rem;
+            margin-bottom: 1rem;
+            border-radius: 1rem;
+            width: 18rem;
+            height: auto;
+        }
+        .caraintro{
+            font-size: 1.5rem;
+            font-family:"Smiley Sans", "Anzumoji";
+            line-height: 2;
+        }
+        .container{
+            width: min(80vw, 1000px);
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        //自动获取页面宽度计算fontsize值
+        function autofontsize(){
+            document.documentElement.style.fontSize=screen.width/100+'px'
+        }
+        autofontsize();
+        window.onresize=autofontsize;
+    </script>
+
+    <div class="background">
+        <img class="bgpic" src="https://i.bandori.party/u/asset/DFTk8k10th-Anniversary-LIVE-Hoshinokodo-Poppin-Party-CdwcVm.jpg" alt="">
+    </div>
+
+    <div class="container">
+        <div class="页眉">
+            <img class="title" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Poppin%27Party_logo.svg/960px-Poppin%27Party_logo.svg.png?_=20210309163748">
+        </div>
+
+        <div class="boxcara">
+            <h1 class="cara_title" style="color: #FF5522;">戸山香澄</h1>
+            <hr>
+            <div class="cara_content">
+                <img class="carapic" src="https://storage.moegirl.org.cn/moegirl/commons/5/54/Kasumi240401.png!/fw/282?v=20240405021232" alt="">
+                <p class="caraintro">
+                    Poppin'Party乐队的主唱兼吉他手。喜欢冒险和唱卡拉OK。<br>
+
+                    喜欢的食物是炸薯条、白米饭，讨厌纳豆。完全是中之人的逆输入<br>
+
+                    就读于花咲川女子学园。<br>
+
+                    有着积极乐观的性格。做事冲动莽撞，常有令人诧异的举动。例如当DD<br>
+
+                    极度怕鬼，尤其是在牛込里美提到跟鬼有关的话题时。害怕坐飞机，坐飞机时需要里美和有咲左右护法才能稳定情绪。<br>
+
+                    曾经不擅长游泳动画第一季时差点在学校泳池溺水，但在手游160期活动中已经能够游泳和潜水。题外话，香澄身为本企划主角，泳装只有4套（含第一季死库水）<br>
+
+                    家庭成员有4人，有1个小1年的妹妹，但是一眼看过去却分不清谁是姐姐谁是妹妹。<br>
+
+                    发型本意是星星形状，但一眼看去总会被认为是猫耳。凑友希那诱捕器 也有人认为那是粽子<br>
+
+                    升上高三后，开始在LIVE HOUSE RiNG打工。<br>
+
+                    乐器： ESP RANDOM STAR<br>
+
+                    因香澄（及其声优爱美）在企划中的开创性地位，被中文观众尊称为“邦高祖”。<br>
+
+                    姓氏来自东京都新宿区户山。
+
+                </p>
+            </div>
+        </div>
+
+        <div class="boxcara">
+            <h1 class="cara_title" style="color: #0077DD;">花園たえ</h1>
+            <hr>
+            <div class="cara_content">
+                <img class="carapic" src="https://storage.moegirl.org.cn/moegirl/commons/7/71/%E8%8A%B1%E5%9B%AD%E5%A4%9A%E6%83%A0-%E8%BF%99%E9%87%8C%E5%8F%AA%E6%9C%89%E6%88%91%E4%B8%80%E4%BA%BA.png!/fw/1200/watermark/url/L21vZWdpcmwvd2F0ZXJtYXJrLnBuZw==/align/southeast/margin/10x10/opacity/50?v=20251008050856" alt="">
+                <p class="caraintro">
+                    Poppin'Party乐队的主音吉他手，Poppin'Party里身高最高的一个，ppp的高人（一语双关），就读花咲川女子学园。兴趣是跑步（不会勉强去跑）、黏土、泡澡。喜欢的食物是汉堡肉（无比的肉食爱好者)、年糕红豆粥、能吃的都喜欢，讨厌的食物好像是没有（猎奇的东西之类的话……？）<br>
+
+                    小学就开始练习吉他的强大实力派。非常喜欢音乐，升入高中后就一直在Live House打工。对从小攒钱买来的蓝色ESP SNAPPER吉他非常中意。<br>
+
+                    性格我行我素而又天然，有时还会做出意料之外的行动让周围的人吃惊。不过虽然平时看起来有点脱线，但却是一个情感非常细腻的一个人。<br>
+
+                    官方设定的黑长直美女，并且手游里的角色初始卡就叫“天然美人”。官方人设解释也提到了这点<br>
+
+                    家人是父亲母亲和20只兔子（提到名字的有小欧、小紫、团十郎、小白、小多罗、克里斯、可可亚、小高、基司、贝克、詹姆士、吉米亨、赛伊斯、波尔、艾利克、BB King，她最喜欢的兔子是异色瞳的小欧，部分名字出自角色曲的歌词和官方漫画）。手游第三季里又有新兔子出生了。<br>
+
+                    乐器： ESP SNAPPER<br>
+
+                    姓氏“花园”来自东京都新宿区花园町（旧地名，在今新宿1丁目），名字“たえ”和队员对其的称呼“おたえ”都来源于声优中之人大冢纱英当年在横滨的音乐工作室打工时的外号“おたえ”。
+
+
+                </p>
+            </div>
+        </div>
+
+        <div class="boxcara">
+            <h1 class="cara_title" style="color: #AA66DD;">市ヶ谷有咲</h1>
+            <hr>
+            <div class="cara_content">
+                <img class="carapic" src="https://storage.moegirl.org.cn/moegirl/commons/a/a0/%E5%B8%82%E8%B0%B7_%E6%9C%89%E5%92%B2_-_%E5%A4%B1%E6%8E%A7%E6%97%A0%E6%B3%95%E5%81%9C%E6%AD%A2%EF%BC%81.jpg!/fw/282?v=20240805132424" alt="">
+                <p class="caraintro">
+                    Poppin'Party乐队的键盘手，就读花咲川女子学园。<br>
+
+                    喜欢的食物有豆沙水果凉粉、玄米、白煮蛋，讨厌葱类的食物。另外，根据有咲的奶奶的描述，有咲从小就喜欢吃煎鸡蛋，再急也要把煎鸡蛋吃掉。<br>
+
+                    典当行“流星堂”的孙女。<br>
+
+                    以盆景和上网为兴趣的室内派。<br>
+
+                    虽然基本一直不出门，但很有方法所以在学校成绩优秀。<br>
+
+                    非常毒舌，特别是总对香澄很强硬，但其实只是坦率不起来而已。<br>
+
+                    在年幼时就学习过钢琴、不过半途而废了。<br>
+
+                    因为缺乏锻炼所以体力很差，拥有各式各样的坐姿以及狂放的睡姿。<br>
+
+                    使用过的乐器：Roland JUNO-DS61W、Roland AX-Synth<br>
+
+                    姓氏“市谷”来自东京都新宿区市谷地区。
+
+
+                </p>
+            </div>
+        </div>
+
+        <div class="boxcara">
+            <h1 class="cara_title" style="color: #FFCC11;">山吹沙綾</h1>
+            <hr>
+            <div class="cara_content">
+                <img class="carapic" src="https://storage.moegirl.org.cn/moegirl/commons/1/18/%E5%B1%B1%E5%90%B9%E6%B2%99%E7%BB%AB-%E3%81%8A%E8%85%B9%E3%82%82%E5%BF%83%E3%82%82%E6%BA%80%E3%81%9F%E3%81%95%E3%82%8C%E3%81%A6.jpg" alt="">
+                <p class="caraintro">
+                    Poppin'Party乐队的鼓手。兴趣是卡拉OK、观看棒球赛、收集发饰。<br>
+                    喜欢的食物是奶酪以及ペペロンチーノ，讨厌生海鲜。<br>
+                    就读花咲川女子学园。<br>
+                    开学典礼就和香澄交好，经常和香澄一起吃饭。<br>
+                    性格温柔，为朋友着想，是香澄的咨询对象。<br>
+                    一边读高中一边在自家的面包店「山吹烘焙坊」（やまぶきベーカリー）帮忙，是个孝顺的少女。<br>
+                    家中有年幼的弟弟和妹妹。<br>
+                    初中与海野夏希、川端真结、森文华组成过女子乐队「CHiSPA」，离队后由大湖里实接替位置。<br>
+                    姓氏「山吹」来自东京都新宿区山吹町。<br>
+                    
+                    乐器：<br>
+                    Roland TD-11K(动画第一季于流星堂仓库内使用)<br>
+                    Pearl Reference PURE Drum Kit<br>
+                    Snare Drum：MCT1455S/C-SAYA<br>
+                    在动画第三季中已购置站立式的新鼓组: Pearl Artisan Custom
+                    
+
+                </p>
+            </div>
+        </div>
+
+        <div class="boxcara">
+            <h1 class="cara_title" style="color: #FF55BB;">牛込りみ</h1>
+            <hr>
+            <div class="cara_content">
+                <img class="carapic" src="https://storage.moegirl.org.cn/moegirl/commons/4/4a/%E7%89%9B%E8%BE%BC%E9%87%8C%E7%BE%8E-%E5%BF%83%E6%B8%A9%E3%81%BE%E3%82%8B%E4%B8%80%E7%9A%BF%E3%82%92.jpg!/fw/282?v=20250322123302" alt="">
+                <p class="caraintro">
+                    Poppin'Party乐队的贝斯手，就读于花咲川女子学园。兴趣是游戏和读书，还有摄影的专长，平常会纪录乐团的日常。<br>
+
+                    喜欢的食物是巧克力螺、肉、鲜奶油，讨厌的食物为薄荷味巧克力。<br>
+
+                    关西人，性格比较胆小怯懦，一紧张就容易说出方言，比较认生所以起初一直自己一人在屋顶吃午餐。<br>
+
+                    姐姐牛込百合是Glitter☆Green乐队的主唱，使用的粉色ESP贝斯也是她送的。<br>
+
+                    山吹面包房的常客，最喜欢的东西是巧克力螺。生活就是巧克力螺，吃巧克力螺时就像兔子在吃胡萝卜（多惠语），自己还写了一首歌《我的心是巧克力螺》。结果在PICO里变成了巧克力螺。那么巧克力螺到底是从上面吃还是从下面开始吃，话说哪边才是上面？<br>
+
+
+                    游戏过场小漫画「草食系のあの子」（草食系的那个人）<br>
+                    喜欢看恐怖电影，因此和广町七深关系很好。PICO里还一起构思过关于乐队成员们的恐怖故事，最后在游戏中甚至自己和PPP的大家拍了一部恐怖微电影<br>
+
+                    是隔壁Hello, Happy World! 的濑田薰的铁粉。<br>
+
+                    弹奏贝斯方面，在台上演出时使用拨片弹奏，台下作曲时偶尔会指弹。<br>
+
+                    因为受姐姐的影响而计划高中毕业后出国留学。<br>
+
+                    乐器： ESP VIPER BASS<br>
+
+                    姓氏来自东京都牛込区（旧区名，后经合并为新宿区一部分）。
+
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
